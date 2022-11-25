@@ -78,8 +78,7 @@ public class Simulation {
         // create a new BurnInputStream
         BurnStream burnInput = new BurnInputStream();
         // pass the new BurnInputStream to the runSimulation method
-        BurnStream runsim = new OnBoardComputer();
-        obj.runSimulation(runsim);
+        obj.runSimulation(burnInput);
     }
 
 }
